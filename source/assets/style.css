@@ -1,0 +1,188 @@
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small,
+strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label,
+legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside,
+figure, footer, header, menu, nav, section, time, mark, audio, video, details,
+summary {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+    background: transparent
+}
+
+article, aside, figure, footer, header, nav, section, details, summary {
+    display: block
+}
+
+html {
+    box-sizing: border-box
+}
+
+* , * :before, * :after {
+    box-sizing: inherit
+}
+
+img, object, embed {
+    max-width: 100%
+}
+
+html {
+    overflow-y: scroll
+}
+
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+    color: #222324;
+    font-weight: 300;
+    line-height: 1.125;
+    margin-bottom: 20px
+}
+
+.content h1 {
+    font-size: 2em
+}
+
+.content h2 {
+    font-size: 1.75em
+}
+
+.content h3 {
+    font-size: 1.5em
+}
+
+.content h4 {
+    font-size: 1.25em
+}
+
+.content h5 {
+    font-size: 1.125em
+}
+
+.content h6 {
+    font-size: 1em
+}
+
+.content ol {
+    list-style: decimal outside;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 1em
+}
+
+.content ul {
+    list-style: disc outside;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 1em
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto
+}
+
+.content {
+    font-size: 16px;
+    line-height: 1.75
+}
+
+.media-content .subtitle + .title {
+    margin-bottom: 10px
+}
+
+.media-content .content {
+    line-height: 1.5
+}
+
+
+html {
+    background-color: transparent
+}
+
+.subtitle {
+    color: #69707a
+}
+
+.title {
+    line-height: 1.25;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.title a {
+    color: #222324
+}
+
+.title.notfound {
+    font-size: 20vw
+}
+
+code {
+    color: inherit;
+    background-color: transparent;
+    font-size: 90%
+}
+
+article + article {
+    margin-top: 80px
+}
+
+
+strong{
+    font-weight: bold
+}
+
+.content p:not(:last-child), .content ol:not(:last-child), .content ul:not(:last-child),
+.content pre:not(:last-child), .content table:not(:last-child) {
+    margin-bottom: 1.5em
+}
+
+.content table td, .content table th {
+    border: 1px solid #d3d6db;
+    padding: 8px 10px;
+    vertical-align: top
+}
+
+.content > code, .content p > code {
+    font-size: 90%;
+    padding: 2px 4px;
+    margin: 0 2px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    color: #42464c
+}
+
+.content pre code {
+    font-size: 90%;
+    padding: 1em;
+    line-height: 1.5
+}
+
+.content li pre, .content li table {
+    margin-bottom: 1.5em
+}
+
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+  blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  blockquote p {
+    display: inline;
+  }
+
+
+        

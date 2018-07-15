@@ -1,0 +1,27 @@
+doctype html
+html(lang="en")
+  head
+    <meta charset="UTF-8">
+    script(async src="https://www.googletagmanager.com/gtag/js?id=UA-11283135-1")
+    script.
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-11283135-1');
+
+  
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/style.css">
+    title !{options.heading} | Ravi Vyas
+    
+  body
+    section.section
+        block content
+      
+
+    #footer 
+      .container.content.p 
+        a(href="http://ravivyas.com") Back home
+      .container.content Ravi Vyas 
+      .container.content copyright 2018

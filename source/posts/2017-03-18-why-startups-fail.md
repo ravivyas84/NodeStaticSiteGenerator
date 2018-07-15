@@ -1,7 +1,6 @@
 ---
-title = "Why Startups are hard"
-date = "2017-03-18T08:01:05+05:30"
-
+title: "Why Startups are hard"
+date:  "2017-03-18T08:01:05+05:30"
 ---
 It's been a year I started up. Have not found success but learnt a lot. 
 
