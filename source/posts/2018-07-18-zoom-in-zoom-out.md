@@ -6,8 +6,6 @@ excerpt: Organisations can't be good at opposing skills.
   - Blog
 
 ---
-# Zooming out and zooming in
-
 I had recently heard a phrase, great leaders are good at zooming in and zooming out, it gave examples of Elon Musk and Steve Jobs.
 
 While it didn't strike me then, after a little while of thinking more about it, a few days, to be frank, it dawned on me, like many great sayings, there is a lot of depth in the phrase.

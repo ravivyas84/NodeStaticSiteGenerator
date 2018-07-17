@@ -85,7 +85,11 @@ html {
     }
 }
     
-
+.postDate {
+    font-size: 14px;
+    margin-bottom: 10px; 
+    color: #69707a
+}
 
 .content h1 {
     font-size: 2em
@@ -286,5 +290,9 @@ blockquote {
   
   .nav-links a:hover {
     color: #000;
+  }
+
+  #footer {
+      margin-top: 80px;
   }
         

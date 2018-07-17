@@ -28,6 +28,7 @@ globP('**/*.md', { cwd: `${srcPath}/posts` })
             // console.log(` Found Post ${file}`)
             const fileData = path.parse(file)
             const destPath = path.join(distPath + "/posts", fileData.dir)
+            const destPathStatic = path.join(distPath, fileData.dir)
             return fse.mkdirs(destPath)
                 .then(() => {
                     // read page file
@@ -47,18 +48,22 @@ globP('**/*.md', { cwd: `${srcPath}/posts` })
                         // console.log(pageData.attributes.title)
                         title = pageData.attributes.title
                     }
-
-                    // console.log("\n\n\n\n")
-                    // console.log(pageContent)
-                    // console.log("\n\n\n\n") 
                     const year = new Date().getFullYear()
-                    const options = { body: pageContent, heading: title, date: year }
-                    const html = pug.renderFile(`${srcPath}/layouts/post.pug`, { options })
-                    fse.writeFile(`${destPath}/${fileData.name}.html`, html)
                     const humanDate = moment(date).format("MMM Do YYYY");
-                    posts.push({ heading: title, humandate: humanDate,date:date, filename: `posts/${fileData.name}.html` })
-                    // console.log(posts.length)
-                    return file
+                    const options = { body: pageContent, humandate: humanDate, heading: title, date: year }
+                    if (pageData.attributes.type === "page") {
+                        // Static pageContent, don't add to posts array, use static page pug, and create in root dir
+                        const html = pug.renderFile(`${srcPath}/layouts/staticPage.pug`, { options })
+                        fse.writeFile(`${destPathStatic}/${fileData.name}.html`, html)
+                        return file
+                    } else {
+                        const html = pug.renderFile(`${srcPath}/layouts/post.pug`, { options })
+                        fse.writeFile(`${destPath}/${fileData.name}.html`, html)
+                        posts.push({ heading: title, humandate: humanDate,date:date, filename: `posts/${fileData.name}.html` })
+                        // console.log(posts.length)
+                        return file
+                    }
+                
                 })
                 .catch((err) => { console.error(err) })
         })
@@ -67,6 +72,7 @@ globP('**/*.md', { cwd: `${srcPath}/posts` })
             posts.sort(function(a,b){
                 return new Date(b.date) - new Date(a.date);
               });
+
             const options = { allPosts: posts, heading: "Home" }
             console.log(options.allPosts.length)
             const html = pug.renderFile(`${srcPath}/layouts/home.pug`, { options })
