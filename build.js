@@ -5,8 +5,9 @@ const globP = promisify(require('glob'))
 const frontMatter = require('front-matter')
 const pug = require('pug');
 const marked = require('marked')
+const moment = require('moment')
 const srcPath = './source'
-const distPath = './public/posts'
+const distPath = './public'
 
 // clear destination folder
 fse.emptyDirSync(distPath)
@@ -26,7 +27,7 @@ globP('**/*.md', { cwd: `${srcPath}/posts` })
         var promises = files.map((file) => {
             // console.log(` Found Post ${file}`)
             const fileData = path.parse(file)
-            const destPath = path.join(distPath, fileData.dir)
+            const destPath = path.join(distPath + "/posts", fileData.dir)
             return fse.mkdirs(destPath)
                 .then(() => {
                     // read page file
@@ -54,7 +55,8 @@ globP('**/*.md', { cwd: `${srcPath}/posts` })
                     const options = { body: pageContent, heading: title, date: year }
                     const html = pug.renderFile(`${srcPath}/layouts/post.pug`, { options })
                     fse.writeFile(`${destPath}/${fileData.name}.html`, html)
-                    posts.push({ heading: title, date: pageData.attributes.date, filename: `posts/${fileData.name}.html` })
+                    const humanDate = moment(date).format("MMM Do YYYY");
+                    posts.push({ heading: title, humandate: humanDate,date:date, filename: `posts/${fileData.name}.html` })
                     // console.log(posts.length)
                     return file
                 })
@@ -63,10 +65,8 @@ globP('**/*.md', { cwd: `${srcPath}/posts` })
 
         Promise.all(promises).then(function (results) {
             posts.sort(function(a,b){
-                
                 return new Date(b.date) - new Date(a.date);
               });
-
             const options = { allPosts: posts, heading: "Home" }
             console.log(options.allPosts.length)
             const html = pug.renderFile(`${srcPath}/layouts/home.pug`, { options })

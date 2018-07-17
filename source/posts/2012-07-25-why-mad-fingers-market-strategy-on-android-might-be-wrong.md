@@ -24,7 +24,7 @@ Now if you add up 2 & 2 you can understand that you need to have a different sel
   
 Also note what making their game free did to the number of downloads of Dead Trigger. At half a million active installs, well placed & non intrusive ads in their game would have made them a lot of money.
   
-<img title="Capture3" src="http://www.ravivyas.com/wp-content/uploads/2012/07/Capture3.jpg" alt="" width="172" height="165" />
+<img title="Capture3" src="http://www.ravivyas.com/assets/wp-content/uploads/2012/07/Capture3.jpg" alt="" width="172" height="165" />
   
 Disclaimer : I work for a mobile ads company <a href="http://vserv.mobi" target="_blank">vserv.mobi</a>.
 Update: Used to work

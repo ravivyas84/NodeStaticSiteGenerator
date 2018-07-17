@@ -13,7 +13,7 @@ categories:
 
 ---
 <p id="28e0" class="graf--p graf-after--h3">
-  <a href="http://www.ravivyas.com/wp-content/uploads/2016/02/FB.jpg"><img class="alignleft wp-image-695 " src="http://www.ravivyas.com/wp-content/uploads/2016/02/FB-300x205.jpg" alt="FB" width="255" height="174" srcset="http://www.ravivyas.com/wp-content/uploads/2016/02/FB-300x205.jpg 300w, http://www.ravivyas.com/wp-content/uploads/2016/02/FB.jpg 500w" sizes="(max-width: 255px) 100vw, 255px" /></a>Facebook this week announced their new Ad Exchange, basically extending their Video Ad network which was powered by LiveRail to Display Ads too. In short this means that marketers spending money on Facebook can now use Facebook’s targeting capabilities on other display networks, essentially converting some of the other Ad Networks to Dumb pipes and out-performing other exchanges.
+  <a href="http://www.ravivyas.com/assets/wp-content/uploads/2016/02/FB.jpg"><img class="alignleft wp-image-695 " src="http://www.ravivyas.com/assets/wp-content/uploads/2016/02/FB-300x205.jpg" alt="FB" width="255" height="174" srcset="http://www.ravivyas.com/assets/wp-content/uploads/2016/02/FB-300x205.jpg 300w, http://www.ravivyas.com/assets/wp-content/uploads/2016/02/FB.jpg 500w" sizes="(max-width: 255px) 100vw, 255px" /></a>Facebook this week announced their new Ad Exchange, basically extending their Video Ad network which was powered by LiveRail to Display Ads too. In short this means that marketers spending money on Facebook can now use Facebook’s targeting capabilities on other display networks, essentially converting some of the other Ad Networks to Dumb pipes and out-performing other exchanges.
 </p>
 
 <p id="4f2a" class="graf--p graf-after--p">

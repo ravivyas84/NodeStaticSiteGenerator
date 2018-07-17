@@ -2,6 +2,7 @@ doctype html
 html(lang="en")
   head
     <meta charset="UTF-8">
+    //- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     script(async src="https://www.googletagmanager.com/gtag/js?id=UA-11283135-1")
     script.
         window.dataLayer = window.dataLayer || [];
@@ -12,16 +13,29 @@ html(lang="en")
   
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="/assets/style.css">
     title !{options.heading} | Ravi Vyas
     
   body
+    div.header
+      div.nav 
+        a.nav-logo(href="/")
+            span Ravi Vyas
+        ul.nav-links
+          li 
+            a(href="/about/") About
+          li 
+            a(href="https://twitter.com/ravivyas84") Twitter
+
+
     section.section
         block content
       
 
     #footer 
       .container.content.p 
-        a(href="http://ravivyas.com") Back home
-      .container.content Ravi Vyas 
-      .container.content copyright 2018
+        a(href="/") Back home
+      .container.content
+        span Ravi Vyas |  
+        span Static CMS built by hand based on Nano |  
+        span Copyright 2018

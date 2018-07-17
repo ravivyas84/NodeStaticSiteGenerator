@@ -5,10 +5,9 @@ block content
         h1.title Ravi Vyas
         h2.title Operator and Learner
 
-        p Posts
-
-        ul
-            for post in options.allPosts
-                li 
+        for post in options.allPosts
+            div.postlist
+                div.headline.col-8
                     a(href=post.filename) #{post.heading}
+                div.date.col-2 #{post.humandate}
         
