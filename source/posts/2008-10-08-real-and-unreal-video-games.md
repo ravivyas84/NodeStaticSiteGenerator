@@ -2,6 +2,7 @@
 title: 'Real and unreal : video games'
 author: Ravi
 type: post
+canonicalURL:  posts/2008-10-08-real-and-unreal-video-games.html
 date: 2008-10-08T15:48:00+00:00
 url: /real-and-unreal-video-games/
 blogger_blog:

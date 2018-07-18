@@ -2,10 +2,8 @@
 title: Management vs IT
 author: Ravi
 type: post
+canonicalURL:  posts/2010-10-13-management-vs-it.html
 date: 2010-10-13T07:50:49+00:00
-url: /management-vs-it/
-short-url:
-  - http://j.mp/SXzdju
 categories:
   - Blog
 tags:

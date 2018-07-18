@@ -2,6 +2,7 @@
 title: NokiaX – The Windows Phone Trojan Horse?
 author: Ravi
 type: post
+canonicalURL:  posts/2014-02-24-nokiax-the-windows-phone-trojan-horse.html
 date: 2014-02-24T06:06:30+00:00
 url: /nokiax-the-windows-phone-trojan-horse/
 short-url:

@@ -2,10 +2,8 @@
 title: Windows Phone 8
 author: Ravi
 type: post
+canonicalURL:  posts/2013-08-02-windows-phone-8.html
 date: 2013-08-02T05:20:34+00:00
-url: /windows-phone-8/
-short-url:
-  - http://j.mp/18VzajV
 categories:
   - Blog
 

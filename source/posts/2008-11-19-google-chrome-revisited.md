@@ -2,6 +2,7 @@
 title: Google Chrome Revisited
 author: Ravi
 type: post
+canonicalURL:  posts/2008-10-07-security-vs-useability.html
 date: 2008-11-19T18:37:00+00:00
 url: /google-chrome-revisited/
 blogger_blog:

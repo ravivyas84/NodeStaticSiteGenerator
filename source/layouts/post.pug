@@ -1,5 +1,7 @@
 extends ./base.pug
 
+block head 
+    meta(rel= 'canonical', href= `${options.canonical}`)
 
 block content
     .container.content 

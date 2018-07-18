@@ -2,12 +2,8 @@
 title: Don’t Wait For A Tech Co-Founder
 author: Ravi
 type: post
+canonicalURL:  posts/2014-11-30-dont-wait-for-a-tech-co-founder.html
 date: 2014-11-30T13:48:22+00:00
-url: /dont-wait-for-a-tech-co-founder/
-short-url:
-  - http://j.mp/1IQGcZI
-dsq_thread_id:
-  - 4820946560
 categories:
   - Blog
 

@@ -3,11 +3,7 @@ title: The tale of two Googles
 author: Ravi
 type: post
 date: 2015-12-04T17:10:28+00:00
-url: /tale-two-googles/
-short-url:
-  - http://j.mp/1ToQ3YV
-dsq_thread_id:
-  - 4613059055
+canonicalURL:  posts/2015-12-04-tale-two-googles.html
 categories:
   - Blog
 

@@ -2,6 +2,7 @@
 title: Diametrically Opposite Skills
 author: Ravi
 date: 2018-07-15T23:50:00+00:00
+canonicalURL:  posts/2018-07-15-diametrically-opposite-skills.html
 excerpt: Organisations can't be good at opposing skills.
   - Blog
 

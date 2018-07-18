@@ -2,6 +2,7 @@
 title: Rise of Adobe Flash on Smartphones with Android
 author: Ravi
 type: post
+canonicalURL:  posts/2010-11-12-rise-of-adobe-flash-on-smartphones-with-android.html
 date: 2010-11-12T14:44:17+00:00
 url: /rise-of-adobe-flash-on-smartphones-with-android/
 short-url:

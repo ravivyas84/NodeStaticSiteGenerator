@@ -2,6 +2,7 @@
 title: Samsung Spica going to get Android 2.1 update
 author: Ravi
 type: post
+canonicalURL:  posts/2010-03-18-samsung-spica-going-to-get-android-2-1-update.html
 date: 2010-03-18T16:22:32+00:00
 url: /samsung-spica-going-to-get-android-2-1-update/
 aktt_notify_twitter:

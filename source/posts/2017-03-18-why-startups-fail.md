@@ -1,6 +1,7 @@
 ---
 title: Why Startups are hard
 date:  2017-03-18T08:01:05+00:00
+canonicalURL:  posts/2017-03-18-why-startups-fail.html
 ---
 It's been a year I started up. Have not found success but learnt a lot. 
 

@@ -8,6 +8,7 @@ const marked = require('marked')
 const moment = require('moment')
 const srcPath = './source'
 const distPath = './public'
+const hostname = 'http://ravivyas.com'
 
 // clear destination folder
 fse.emptyDirSync(distPath)
@@ -17,7 +18,7 @@ fse.copy(`${srcPath}/assets`, `${distPath}/assets`)
 
 var posts = []
 
-
+var pages = []
 
 // read page templates
 globP('**/*.md', { cwd: `${srcPath}/posts` })
@@ -48,19 +49,23 @@ globP('**/*.md', { cwd: `${srcPath}/posts` })
                         // console.log(pageData.attributes.title)
                         title = pageData.attributes.title
                     }
+
                     const year = new Date().getFullYear()
                     const humanDate = moment(date).format("MMM Do YYYY");
-                    const options = { body: pageContent, humandate: humanDate, heading: title, date: year }
+                    const canonicalURL = `${hostname}/${pageData.attributes.canonicalURL}`
+
+                    const options = { body: pageContent, humandate: humanDate, canonical:canonicalURL,  heading: title, date: year }
+                    
                     if (pageData.attributes.type === "page") {
                         // Static pageContent, don't add to posts array, use static page pug, and create in root dir
                         const html = pug.renderFile(`${srcPath}/layouts/staticPage.pug`, { options })
                         fse.writeFile(`${destPathStatic}/${fileData.name}.html`, html)
                         return file
                     } else {
+                        // console.log(options.canonical)
                         const html = pug.renderFile(`${srcPath}/layouts/post.pug`, { options })
                         fse.writeFile(`${destPath}/${fileData.name}.html`, html)
                         posts.push({ heading: title, humandate: humanDate,date:date, filename: `posts/${fileData.name}.html` })
-                        // console.log(posts.length)
                         return file
                     }
                 

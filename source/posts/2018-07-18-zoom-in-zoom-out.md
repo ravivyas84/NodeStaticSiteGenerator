@@ -2,6 +2,7 @@
 title: Zooming out and zooming in
 author: Ravi
 date: 2018-07-17T10:50:00+00:00
+canonicalURL:  posts/2018-07-18-zoom-in-zoom-out.html
 excerpt: Organisations can't be good at opposing skills.
   - Blog
 

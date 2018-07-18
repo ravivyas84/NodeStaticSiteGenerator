@@ -2,6 +2,7 @@
 title: Cloudy with a chance of no email
 author: Ravi
 type: post
+canonicalURL:  posts/2011-03-02-cloudy-with-a-chance-of-no-email.html
 date: 2011-03-01T19:24:25+00:00
 url: /cloudy-with-a-chance-of-no-email/
 short-url:

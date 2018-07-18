@@ -2,14 +2,8 @@
 title: Samsung pushes 2.1 for Spica in Germany
 author: Ravi
 type: post
+canonicalURL:  posts/2010-03-29-samsung-pushes-2-1-for-spica-in-germany.html
 date: 2010-03-29T18:06:08+00:00
-url: /samsung-pushes-2-1-for-spica-in-germany/
-aktt_notify_twitter:
-  - yes
-aktt_tweeted:
-  - 1
-short-url:
-  - http://bit.ly/eq392W
 categories:
   - Blog
 tags:

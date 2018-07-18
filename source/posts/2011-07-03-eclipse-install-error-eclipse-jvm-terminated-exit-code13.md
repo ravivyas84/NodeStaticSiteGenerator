@@ -2,6 +2,7 @@
 title: 'Eclipse Install error : eclipse JVM terminated. Exit code=13'
 author: Ravi
 type: post
+canonicalURL:  posts/2011-07-03-eclipse-install-error-eclipse-jvm-terminated-exit-code13.html
 date: 2011-07-03T15:28:56+00:00
 url: /eclipse-install-error-eclipse-jvm-terminated-exit-code13/
 dsq_thread_id:

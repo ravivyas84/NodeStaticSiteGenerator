@@ -2,18 +2,8 @@
 title: Why I think iAd will fail and might even kill the iPhone
 author: Ravi
 type: post
+canonicalURL:  posts/2010-04-09-why-i-think-iad-will-fail-and-might-even-kill-the-iphone.html
 date: 2010-04-08T19:29:08+00:00
-url: /why-i-think-iad-will-fail-and-might-even-kill-the-iphone/
-aktt_notify_twitter:
-  - yes
-aktt_tweeted:
-  - 1
-rta-shorturl:
-  - http://bit.ly/cQj5nz
-short-url:
-  - http://bit.ly/cQj5nz
-dsq_thread_id:
-  - 5245770487
 categories:
   - Blog
 tags:

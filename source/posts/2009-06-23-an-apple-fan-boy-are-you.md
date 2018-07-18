@@ -2,6 +2,7 @@
 title: An apple fan boy are you??
 author: Ravi
 type: post
+canonicalURL:  posts/2009-06-23-an-apple-fan-boy-are-you.html
 date: 2009-06-23T10:45:59+00:00
 excerpt: |
   |

@@ -3,11 +3,7 @@ title: Being critical is easy.
 author: Ravi
 type: post
 date: 2015-10-12T17:07:14+00:00
-url: /being-critical-is-easy/
-short-url:
-  - http://j.mp/1ToQ7rA
-dsq_thread_id:
-  - 4633860465
+canonicalURL: posts/2015-10-12-being-critical-is-easy.html
 categories:
   - Blog
 

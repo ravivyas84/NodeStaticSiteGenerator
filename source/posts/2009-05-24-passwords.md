@@ -2,16 +2,8 @@
 title: Passwords
 author: Ravi
 type: post
+canonicalURL:  posts/2009-05-24-passwords.html
 date: 2009-05-24T10:24:00+00:00
-url: /passwords/
-blogger_blog:
-  - vyasravi.blogspot.com
-blogger_author:
-  - Ravihttp://www.blogger.com/profile/14441230282498705417noreply@blogger.com
-blogger_permalink:
-  - /2009/05/passwords.html
-short-url:
-  - http://j.mp/LUHfEx
 categories:
   - Blog
 tags:

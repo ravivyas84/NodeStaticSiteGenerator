@@ -2,6 +2,7 @@
 title: Facebook Messaging
 author: Ravi
 type: post
+canonicalURL:  posts/2010-11-16-facebook-messaging.html
 date: 2010-11-16T10:32:23+00:00
 url: /facebook-messaging/
 short-url:

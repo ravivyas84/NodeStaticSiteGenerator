@@ -3,7 +3,7 @@ title: 'Activation – The Stepchild Metric: I analyzed more than 33K GrowthHack
 author: Ravi
 type: post
 date: 2016-02-09T04:19:49+00:00
-url: /activation-the-stepchild-metric-i-analyzed-more-than-33k-growthhackers-com-headlines-to-verify-this/
+canonicalURL: posts/2016-02-09-activation-the-stepchild-metric-i-analyzed-more-than-33k-growthhackers-com-headlines-to-verify-this.html
 categories:
   - Analytics
   - Growth

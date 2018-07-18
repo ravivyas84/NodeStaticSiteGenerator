@@ -2,16 +2,8 @@
 title: 'How far we have come : Photography'
 author: Ravi
 type: post
+canonicalURL:  posts/2009-05-21-how-far-we-have-come-photography.html
 date: 2009-05-21T05:22:00+00:00
-url: /how-far-we-have-come-photography/
-blogger_blog:
-  - vyasravi.blogspot.com
-blogger_author:
-  - Ravihttp://www.blogger.com/profile/14441230282498705417noreply@blogger.com
-blogger_permalink:
-  - /2009/05/how-far-we-have-come-photography.html
-short-url:
-  - http://j.mp/NyhXSq
 categories:
   - Blog
 tags:

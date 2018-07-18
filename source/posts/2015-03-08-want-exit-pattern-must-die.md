@@ -3,15 +3,9 @@ title: The “Do you want to Exit” Pattern must Die!
 author: Ravi
 type: post
 date: 2015-03-08T11:41:32+00:00
-url: /want-exit-pattern-must-die/
-short-url:
-  - http://j.mp/1U287qn
-dsq_thread_id:
-  - 4665542590
+canonicalURL: posts/2015-03-08-want-exit-pattern-must-die.html
 categories:
   - Blog
-format: image
-
 ---
 <p id="ccea" class="graf--p graf-after--h3">
   Your users aren’t dumb.

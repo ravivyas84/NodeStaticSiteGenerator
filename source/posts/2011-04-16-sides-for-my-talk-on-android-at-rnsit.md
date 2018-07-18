@@ -2,6 +2,7 @@
 title: Slides for my talk on Android at RNSIT
 author: Ravi
 type: post
+canonicalURL:  posts/2011-04-16-sides-for-my-talk-on-android-at-rnsit.html
 date: 2011-04-16T17:27:15+00:00
 url: /sides-for-my-talk-on-android-at-rnsit/
 short-url:

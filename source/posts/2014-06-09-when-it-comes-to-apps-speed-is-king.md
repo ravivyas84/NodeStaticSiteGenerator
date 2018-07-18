@@ -2,6 +2,7 @@
 title: When It Comes To Apps, Speed is King!
 author: Ravi
 type: post
+canonicalURL:  posts/2014-06-09-when-it-comes-to-apps-speed-is-king.html
 date: 2014-06-09T06:00:40+00:00
 url: /when-it-comes-to-apps-speed-is-king/
 short-url:

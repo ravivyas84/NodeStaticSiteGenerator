@@ -2,10 +2,10 @@
 title: Why Mad Finger’s Android Market Understanding might have been wrong
 author: Ravi
 type: post
+canonicalURL:  posts/2012-07-25-why-mad-fingers-market-strategy-on-android-might-be-wrong.html
 date: 2012-07-24T21:13:39+00:00
 excerpt: |
   So two days ago Madfinger Games just made their new game Dead Trigger free . They cited extremely high levels of piracy in the Android ecosystem. The game was initially 1$ with in-app purchases. There are a lot of things that come into play when you try to explain why the piracy rate is so high in Android. It’s not like iOS apps are not pirated. If you jail break your iPhone you get an option to side load apps. Its not as easy when compared to Android though.
-url: /why-mad-fingers-market-strategy-on-android-might-be-wrong/
 categories:
   - Blog
 

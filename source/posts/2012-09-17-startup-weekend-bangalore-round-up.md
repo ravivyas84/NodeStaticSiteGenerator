@@ -2,6 +2,7 @@
 title: Startup Weekend Bangalore Round Up
 author: Ravi
 type: post
+canonicalURL:  posts/2012-09-17-startup-weekend-bangalore-round-up.html
 date: 2012-09-16T19:57:14+00:00
 url: /startup-weekend-bangalore-round-up/
 short-url:

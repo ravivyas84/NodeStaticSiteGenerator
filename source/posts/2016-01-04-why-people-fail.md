@@ -2,7 +2,7 @@
 title: Why people Fail.
 author: Ravi Vyas
 date: 2016-01-04T17:11:45+00:00
-url: /why-people-fail/
+canonicalURL: posts/2016-01-04-why-people-fail.html
 categories:
   - Failure
 ---

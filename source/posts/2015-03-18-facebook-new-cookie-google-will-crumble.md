@@ -3,7 +3,7 @@ title: Facebook is the new Cookie, and that is how Google will crumble
 author: Ravi
 type: post
 date: 2015-03-18T17:03:12+00:00
-url: /facebook-new-cookie-google-will-crumble/
+canonicalURL: posts/2015-03-18-facebook-new-cookie-google-will-crumble.html
 short-url:
   - http://j.mp/1QLUQPe
 dsq_thread_id:

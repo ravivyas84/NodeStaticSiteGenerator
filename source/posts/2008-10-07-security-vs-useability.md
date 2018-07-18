@@ -2,18 +2,8 @@
 title: Security vs Useability
 author: Ravi
 type: post
+canonicalURL:  posts/2008-10-07-security-vs-useability.html
 date: 2008-10-07T19:01:00+00:00
-url: /security-vs-useability/
-blogger_blog:
-  - vyasravi.blogspot.com
-blogger_author:
-  - Ravihttp://www.blogger.com/profile/14441230282498705417noreply@blogger.com
-blogger_permalink:
-  - /2008/10/security-vs-useability.html
-short-url:
-  - http://j.mp/MDQtH3
-dsq_thread_id:
-  - 4643438724
 categories:
   - Blog
 tags:

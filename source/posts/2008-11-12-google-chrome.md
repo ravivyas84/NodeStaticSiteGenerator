@@ -2,6 +2,7 @@
 title: Google Chrome
 author: Ravi
 type: post
+canonicalURL:  posts/2008-11-12-google-chrome.html
 date: 2008-11-12T16:10:00+00:00
 url: /google-chrome/
 blogger_blog:

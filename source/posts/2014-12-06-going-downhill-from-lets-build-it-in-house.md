@@ -2,6 +2,7 @@
 title: Going Downhill from “Let’s build it in house”
 author: Ravi
 type: post
+canonicalURL:  posts/2014-12-06-going-downhill-from-lets-build-it-in-house.html
 date: 2014-12-06T10:58:34+00:00
 url: /going-downhill-from-lets-build-it-in-house/
 short-url:

@@ -2,6 +2,7 @@
 title: Retrieving Current Network Status in Android
 author: Ravi
 type: post
+canonicalURL:  posts/2011-03-17-retrieving-current-network-status-in-android.html
 date: 2011-03-17T16:43:16+00:00
 url: /retrieving-current-network-status-in-android/
 short-url:

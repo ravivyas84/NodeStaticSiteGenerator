@@ -2,10 +2,8 @@
 title: Windows Phone 7
 author: Ravi
 type: post
+canonicalURL:  posts/2010-10-23-windows-phone-7.html
 date: 2010-10-23T05:16:40+00:00
-url: /windows-phone-7/
-short-url:
-  - http://j.mp/cFtBRK
 categories:
   - Blog
 tags:

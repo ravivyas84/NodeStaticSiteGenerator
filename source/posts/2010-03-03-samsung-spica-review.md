@@ -2,16 +2,8 @@
 title: Samsung Spica review
 author: Ravi
 type: post
+canonicalURL:  posts/2010-03-03-samsung-spica-review.html
 date: 2010-03-02T22:14:27+00:00
-url: /samsung-spica-review/
-aktt_notify_twitter:
-  - yes
-aktt_tweeted:
-  - 1
-short-url:
-  - http://bit.ly/ae6U1A
-dsq_thread_id:
-  - 4702541886
 categories:
   - Blog
 tags:

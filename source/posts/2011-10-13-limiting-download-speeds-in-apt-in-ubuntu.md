@@ -2,6 +2,7 @@
 title: Limiting download speeds in Apt in Ubuntu
 author: Ravi
 type: post
+canonicalURL:  posts/2011-10-13-limiting-download-speeds-in-apt-in-ubuntu.html
 date: 2011-10-13T10:14:33+00:00
 url: /limiting-download-speeds-in-apt-in-ubuntu/
 short-url:

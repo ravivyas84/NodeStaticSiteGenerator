@@ -2,6 +2,7 @@
 title: API Architecture Tips
 author: Ravi
 type: post
+canonicalURL:  posts/2011-05-26-api-architecture-tips.html
 date: 2011-05-25T18:35:55+00:00
 url: /api-architecture-tips/
 short-url:

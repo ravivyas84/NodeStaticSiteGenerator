@@ -2,6 +2,7 @@
 title: Gmail unread emails
 author: Ravi
 type: post
+canonicalURL:  posts/2011-05-15-gmail-unread-emails.html
 date: 2011-05-15T11:33:28+00:00
 url: /gmail-unread-emails/
 short-url:

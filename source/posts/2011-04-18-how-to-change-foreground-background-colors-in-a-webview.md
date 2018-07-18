@@ -2,6 +2,7 @@
 title: 'How to change foreground & background colors in a webview for Android.'
 author: Ravi
 type: post
+canonicalURL:  posts/2011-04-18-how-to-change-foreground-background-colors-in-a-webview.html
 date: 2011-04-18T14:09:10+00:00
 url: /how-to-change-foreground-background-colors-in-a-webview/
 short-url:
