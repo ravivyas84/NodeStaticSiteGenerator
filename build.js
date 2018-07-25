@@ -8,7 +8,7 @@ const marked = require('marked')
 const moment = require('moment')
 const srcPath = './source'
 const distPath = './public'
-const hostname = 'http://ravivyas.com'
+const hostname = 'https://ravivyas.com'
 
 // clear destination folder
 fse.emptyDirSync(distPath)
