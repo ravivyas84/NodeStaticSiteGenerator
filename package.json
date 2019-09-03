@@ -2,19 +2,19 @@
   "name": "ravivyas.com",
   "version": "1.0.0",
   "description": "Ravi Vyas's weksite",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ravi vyas",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3",
+    "express": "^4.17.1",
     "front-matter": "^2.3.0",
     "fs-extra": "^6.0.1",
-    "glob": "^7.1.2",
+    "glob": "^7.1.4",
     "marked": "^0.4.0",
-    "moment": "^2.22.2",
-    "pug": "^2.0.3"
+    "moment": "^2.24.0",
+    "pug": "^2.0.4"
   }
 }

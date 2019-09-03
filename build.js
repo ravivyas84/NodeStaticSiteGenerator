@@ -28,9 +28,9 @@ globP('**/*.md', { cwd: `${srcPath}/posts` })
         var promises = files.map((file) => {
             // console.log(` Found Post ${file}`)
             const fileData = path.parse(file)
-            const destPath = path.join(distPath + "/posts", fileData.dir)
+            // const destPath = path.join(distPath + "/posts", fileData.dir)
             const destPathStatic = path.join(distPath, fileData.dir)
-            return fse.mkdirs(destPath)
+            return fse.mkdirs(destPathStatic)
                 .then(() => {
                     // read page file
                     return fse.readFile(`${srcPath}/posts/${file}`, 'utf-8')
@@ -50,8 +50,11 @@ globP('**/*.md', { cwd: `${srcPath}/posts` })
                         title = pageData.attributes.title
                     }
 
-                    const year = new Date().getFullYear()
+                    // const year = new Date().getFullYear()
                     const humanDate = moment(date).format("MMM Do YYYY");
+                    const year = moment(date).format("YYYY");
+                    const month = moment(date).format("MM");
+                    const dateText = moment(date).format("DD");
                     const canonicalURL = `${hostname}/${pageData.attributes.canonicalURL}`
 
                     const options = { body: pageContent, humandate: humanDate, canonical:canonicalURL,  heading: title, date: year }
@@ -62,10 +65,18 @@ globP('**/*.md', { cwd: `${srcPath}/posts` })
                         fse.writeFile(`${destPathStatic}/${fileData.name}.html`, html)
                         return file
                     } else {
+
+                        // // Creates /tmp/a/apple, regardless of whether `/tmp` and /tmp/a exist.
+                        // fse.mkdir(`${destPathStatic}/${year}/${month}/${dateText}`, { recursive: true }, (err) => {
+                        //     if (err) throw err;
+                        // });
+                        
                         // console.log(options.canonical)
                         const html = pug.renderFile(`${srcPath}/layouts/post.pug`, { options })
-                        fse.writeFile(`${destPath}/${fileData.name}.html`, html)
-                        posts.push({ heading: title, humandate: humanDate,date:date, filename: `posts/${fileData.name}.html` })
+                        fse.outputFile(`${destPathStatic}/${year}/${month}/${dateText}/${fileData.name}.html`, html, (err) => {
+                            if (err) throw err;
+                        } )
+                        posts.push({ heading: title, humandate: humanDate,date:date, filename: `${year}/${month}/${dateText}/${fileData.name}.html` })
                         return file
                     }
                 
@@ -79,7 +90,7 @@ globP('**/*.md', { cwd: `${srcPath}/posts` })
               });
 
             const options = { allPosts: posts, heading: "Home" }
-            console.log(options.allPosts.length)
+            console.log("Posts Created: " + options.allPosts.length)
             const html = pug.renderFile(`${srcPath}/layouts/home.pug`, { options })
             fse.writeFile(`./public/index.html`, html)
         })
